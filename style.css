@@ -1,0 +1,120 @@
+body {
+    
+    font-family: OCR A Std, monospace;
+    /*background-color: #bb3E03;*/
+    background-image: url("pizza_background.png");
+	background-size: cover;
+	background-position: top right;
+}
+
+.medium_pizza{
+    background-color: #AE2012 ;
+    border: 5px solid #EE9B00;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    flex:0.8;
+  
+    
+
+}
+
+.large_pizza{
+    background-color: #9B2226;
+    border: 5px solid #CA6702;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    flex:1.5;
+}
+
+.small_pizza{
+    background-color: #CA6702;
+    border: 5px solid #AE2012;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    flex:0.8;
+
+}
+
+
+.contact_us{
+    background-color: #EE9B00;
+    border: 5px solid  #9B2226;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+
+}
+
+.pizza{
+    
+    border: 5px solid  #9B2226;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+
+}
+@media (min-width: 10px){
+    body{
+        background-color: #bb3E03;
+        
+        
+    }
+
+} 
+
+@media (min-width: 960px){
+    body{
+        background-image: url("pizza_background.png");
+        background-size: cover;
+	    background-position: top right;
+    }
+    .pizzas{
+        display: flex;
+    }
+
+
+
+    .medium_pizza{
+        background-color: #AE2012 ;
+        border: 5px solid #EE9B00;
+        padding: 1em;
+        margin: 1em;
+        margin-bottom: 3em;
+        border-radius: 1em;
+        flex:0.8;
+      
+        
+    
+    }
+    
+    .large_pizza{
+        background-color: #9B2226;
+        border: 5px solid #CA6702;
+        padding: 1em;
+        margin: 1em;
+        margin-bottom: 3em;
+        border-radius: 1em;
+        flex:1.5;
+    }
+    
+    .small_pizza{
+        background-color: #CA6702;
+        border: 5px solid #AE2012;
+        padding: 1em;
+        margin: 1em;
+        margin-bottom: 3em;
+        border-radius: 1em;
+        flex:0.8;
+    
+    }
+
+}
+
