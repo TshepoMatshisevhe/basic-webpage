@@ -6,7 +6,6 @@ body {
 	background-size: cover;
 	background-position: top right;
 }
-
 .medium_pizza{
     background-color: #AE2012 ;
     border: 5px solid #EE9B00;
@@ -15,8 +14,15 @@ body {
     margin-bottom: 3em;
     border-radius: 1em;
     flex:0.8;
-  
+   
     
+}
+
+
+.hdng{
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
 
 }
 
@@ -28,6 +34,8 @@ body {
     margin-bottom: 3em;
     border-radius: 1em;
     flex:1.5;
+    
+   
 }
 
 .small_pizza{
@@ -38,6 +46,8 @@ body {
     margin-bottom: 3em;
     border-radius: 1em;
     flex:0.8;
+    
+    
 
 }
 
@@ -49,11 +59,12 @@ body {
     margin: 1em;
     margin-bottom: 3em;
     border-radius: 1em;
+    text-align: center;
 
 }
 
 .pizza{
-    
+    font-size: large;
     border: 5px solid  #9B2226;
     padding: 1em;
     margin: 1em;
@@ -90,9 +101,9 @@ body {
         margin-bottom: 3em;
         border-radius: 1em;
         flex:0.8;
-      
         
-    
+        
+
     }
     
     .large_pizza{
@@ -103,6 +114,8 @@ body {
         margin-bottom: 3em;
         border-radius: 1em;
         flex:1.5;
+        
+   
     }
     
     .small_pizza{
@@ -113,8 +126,11 @@ body {
         margin-bottom: 3em;
         border-radius: 1em;
         flex:0.8;
+        
+    
     
     }
+    
 
 }
 
